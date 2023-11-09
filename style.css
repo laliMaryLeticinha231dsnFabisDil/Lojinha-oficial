@@ -1,0 +1,183 @@
+@font-face {
+    font-family: bold;
+    src: url(font/IBMPlexSansJP-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: bolde;
+    src: url(font/IBMPlexSansJP-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    margin: 0 100px;
+    display: flex;
+}
+
+#header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main .container {
+    flex-direction: column;
+}
+
+.produto-linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 2px solid #995d5d;
+    padding: 5px 7px;
+    border-radius: 8px;
+    width: 500px;
+    margin-top: 10vh;
+}
+
+#carrinho-icon img {
+    width: 50px;
+}
+
+#carrinho-icon {
+    display: flex;
+}
+
+.produto img {
+    width: 200px;
+    height: 250px;
+}
+
+.produto {
+    border: 2px solid #995d5d;
+    padding: 8vh;
+    margin: 3vh;
+    margin-top: 12vh;
+    background-color: rgba(248, 222, 222, 0.589);
+
+
+    overflow: hidden;
+    position: relative;
+   
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: scale(1.2); /* Aumenta a escala da imagem em 20% no hover */
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h3,
+p {
+    font-family: poppins, sans-serif;
+    text-align: center;
+    margin: 2vh;
+}
+
+.btn {
+    width: 25vh;
+    height: 5vh;
+    background-color: #995d5d;
+    border-radius: 9px;
+    font-family: poppins, sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h2 {
+    font-family: bold;
+}
+
+.nome {
+    margin-top: 18vh;
+    margin-left: -12vh;
+}
+
+.nome-secao {
+    margin-left: 5vh;
+}
+
+.linha {
+    width: 190vh;
+    height: 0.25vh;
+    margin-top: 2vh;
+    background-color: #995d5d;
+}
+
+h1{
+    font-family: bolde;
+    color: #995d5d;
+    margin-top: 10vh;
+}
+
+
+.button{
+    width: 20vh;
+    height: 4vh;
+    text-align: center;
+    background-color: #995d5d;
+    color: white;
+    border-radius: 9px;
+    margin-left: 5vh;
+}
+
+.icone{
+    margin-top: 10vh;
+    width: 2vh;
+    height: 6vh;
+}
+
+header{
+    background-color: rgb(243, 196, 204);
+    height: 20vh;
+   
+}
+
+
+.limpa{
+    font-family: bold;
+    background-color: #995d5d;
+    border-radius: 9px;
+    width: 15vh;
+    height: 4vh;
+    color: white;
+    margin-top: 14vh;
+}
+
+#cont-carrinho  , #preco-total, .preco-total, span, .add, .remove{
+    font-family: bold;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+
+/* #cont-carrinho = quantidade de compras no carrinho */
+/* #preco-total = valor total da compra  */
+/*  .preco-Total = valor da roupa-peça */
+/* span =  nome da peça */
+/* add = adiciona mais peça       remove = tira peça */
+
+#cont-carrinho, span, .preco-total{
+    margin-top: 10vh;
+}
