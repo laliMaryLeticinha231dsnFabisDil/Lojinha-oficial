@@ -172,16 +172,19 @@ header{
    
 }
 #carrinho-itens {
+    display: none; /* Para escondê-lo inicialmente se necessário */
     position: absolute;
-    margin-top: 3vh;
+    top: 120px; /* Posição do topo */
+    right: 70px; /* Posição da direita */
+    /* Adicione outras propriedades de estilo conforme desejado */
+    /* ... */
+}
+
+#carrinho-itens, .limpa{
+    margin: -2px;
 }
 
 
-/* #cont-carrinho = quantidade de compras no carrinho */
-/* #preco-total = valor total da compra  */
-/*  .preco-Total = valor da roupa-peça */
-/* span =  nome da peça */
-/* add = adiciona mais peça       remove = tira peça */
 
 #cont-carrinho, span, .preco-total{
     margin-top: 10vh;
